@@ -3,8 +3,7 @@
     "next/babel"
   ],
   "plugins": [
-    ["import", {
-      "libraryName": "antd"
-    }]
+    ["import", { libraryName: "antd", style: "css" }],
+    "transform-decorators-legacy"
   ]
 }
